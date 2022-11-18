@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyPressedView", "KeyPressedView\KeyPressedView.csproj", "{10EC09B3-C96D-477B-827A-CAAF7129AE49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10EC09B3-C96D-477B-827A-CAAF7129AE49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10EC09B3-C96D-477B-827A-CAAF7129AE49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10EC09B3-C96D-477B-827A-CAAF7129AE49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10EC09B3-C96D-477B-827A-CAAF7129AE49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B48A7F95-D0D1-4C8F-9BA5-3EB8A8F06E14}
+	EndGlobalSection
+EndGlobal
