@@ -81,7 +81,7 @@ namespace KeyPressedView
             this.Close();
         }
 
-        private void SetStartWithStart()
+        private void SetStartWithStartUp()
         {
             string path = Application.ExecutablePath;
             RegistryKey rk = Registry.CurrentUser; // 添加到 当前登陆用户的 注册表启动项     
@@ -113,7 +113,7 @@ namespace KeyPressedView
             }
         }
 
-        private void CancelStartWithStart()
+        private void CancelStartWithStartUp()
         {
             string path = Application.ExecutablePath;
             RegistryKey rk = Registry.CurrentUser;
@@ -137,12 +137,12 @@ namespace KeyPressedView
 
         private void menuItemSetStart_Click(object sender, EventArgs e)
         {
-            SetStartWithStart();
+            SetStartWithStartUp();
         }
 
         private void menuItemCancelStart_Click(object sender, EventArgs e)
         {
-            CancelStartWithStart();
+            CancelStartWithStartUp();
         }
     }
 }
